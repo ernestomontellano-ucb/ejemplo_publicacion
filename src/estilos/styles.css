@@ -1,0 +1,53 @@
+/*
+TYPO
+*/
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* VARIABLES GLOBALES */
+:root{
+/*COLOR PALETTE*/
+--purple: #3B1D59;
+--deep_purple: #2C1643;
+--light_purple:#FAF7FC;
+--magenta: #F22E76;
+--light_magenta: #F897BB;
+--lightest_magenta: #FDDCE8;
+--cyan: #27C3D4;
+--light_cyan: #B6ECF2;
+--lightest_cyan: #DBF5F8;
+--mustard: #F2A444;
+--light_mustard:#F9D2A2;
+--lightest_mustard:#FDF0E0;
+--white:#FFFFFF;
+--black:#000;
+
+/*SIZING*/
+--120:120px;
+--90:90px;
+--67:67px;
+--51:51px;
+--38:38px;
+--28:28px;
+--21:21px;
+--16:16px;
+--12:12px;
+--9:9px;
+
+}
+
+
+
+/*RESETEO*/
+
+/* DE LO GENERAL A LO ESPECÍFICO*/
+
+body{
+    background: var(--deep_purple);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background: var(--light_cyan);
+    padding:var(--38);
+}
